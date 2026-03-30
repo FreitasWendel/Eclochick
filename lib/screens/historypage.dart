@@ -19,7 +19,7 @@ class HistoryPage extends StatelessWidget {
       ),
       body: ListView.builder(
         itemCount: historico.length,
-        itemBuilder: (context, index) { // <--- AQUI ERA O ERRO (CORRIGIDO)
+        itemBuilder: (context, index) { 
           return Card(
             margin: const EdgeInsets.symmetric(horizontal: 15, vertical: 8),
             elevation: 2,

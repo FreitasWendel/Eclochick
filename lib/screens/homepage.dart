@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'historypage.dart';
+import 'configpage.dart';
 
 void main() {
   runApp(const EclochickApp());
@@ -149,8 +150,9 @@ class HomePage extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-  _buildNavItem(context, Icons.timeline, "Dados de incubação"), // Adicionamos 'context' aqui
-  _buildNavItem(context, Icons.settings, "Config"),           // E aqui também
+  _buildNavItem(context, Icons.timeline, "Dados de incubação", const HistoryPage()), 
+  _buildNavItem(context, Icons.settings, "Config", const ConfigPage()),     
+
 ],
             ),
           ),
@@ -189,14 +191,12 @@ class HomePage extends StatelessWidget {
   }
 
   // Widget auxiliar para os itens do menu inferior
-  // Mova para dentro da classe HomePage
-  // Verifique se esta função está DENTRO da classe HomePage, antes do último }
-  Widget _buildNavItem(BuildContext context, IconData icon, String label) { 
+  Widget _buildNavItem(BuildContext context, IconData icon, String label, Widget destinationPage) { 
     return GestureDetector(
       onTap: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => const HistoryPage()),
+          MaterialPageRoute(builder: (context) => destinationPage),
         );
       },
       child: Column(
@@ -210,3 +210,6 @@ class HomePage extends StatelessWidget {
   }
   
 }
+
+
+
