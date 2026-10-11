@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
-import 'screens/homepage.dart'; // Importa a tela que vamos criar
+import 'package:firebase_core/firebase_core.dart'; 
 
-void main() {
+import 'screens/homepage.dart';
+import 'firebase_options.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(           
+    options: DefaultFirebaseOptions.currentPlatform, 
+  );
   runApp(const MyApp());
 }
 
@@ -11,10 +18,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false, // Tira aquela faixa vermelha de "debug"
+      debugShowCheckedModeBanner: false,
       title: 'Eclochick',
       theme: ThemeData(primarySwatch: Colors.green),
-      home: const HomePage(), // Diz que a primeira tela é a HomePage
+      home: const HomePage(),
     );
   }
 }
