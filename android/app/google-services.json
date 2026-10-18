@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "419764444892",
+    "firebase_url": "https://testeprototipo-74ae9-default-rtdb.firebaseio.com",
+    "project_id": "testeprototipo-74ae9",
+    "storage_bucket": "testeprototipo-74ae9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419764444892:android:4d22ca23d6c8ddb6eb1e19",
+        "android_client_info": {
+          "package_name": "com.eclochick"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2gqftzKrSjqz5h9cJl3AYLB0_9ouBOnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419764444892:android:cc5d5b45dd26ff69eb1e19",
+        "android_client_info": {
+          "package_name": "com.example.eclochick"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2gqftzKrSjqz5h9cJl3AYLB0_9ouBOnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
