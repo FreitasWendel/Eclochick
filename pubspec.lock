@@ -89,6 +89,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.2.0"
+<<<<<<< HEAD
   file:
     dependency: transitive
     description:
@@ -97,6 +98,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "7.0.1"
+=======
+>>>>>>> bbe7cded2d1ddc8ac3d63bafa9ae5009c08ca545
   firebase_core:
     dependency: "direct main"
     description:
@@ -150,11 +153,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+<<<<<<< HEAD
   flutter_driver:
     dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.0"
+=======
+>>>>>>> bbe7cded2d1ddc8ac3d63bafa9ae5009c08ca545
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -197,6 +203,7 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+<<<<<<< HEAD
   fuchsia_remote_debug_protocol:
     dependency: transitive
     description: flutter
@@ -207,6 +214,8 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+=======
+>>>>>>> bbe7cded2d1ddc8ac3d63bafa9ae5009c08ca545
   leak_tracker:
     dependency: transitive
     description:
@@ -287,6 +296,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "7.1.0"
+<<<<<<< HEAD
   platform:
     dependency: transitive
     description:
@@ -295,6 +305,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.2.0"
+=======
+>>>>>>> bbe7cded2d1ddc8ac3d63bafa9ae5009c08ca545
   plugin_platform_interface:
     dependency: transitive
     description:
@@ -303,6 +315,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.8"
+<<<<<<< HEAD
   process:
     dependency: transitive
     description:
@@ -311,6 +324,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.0.6"
+=======
+>>>>>>> bbe7cded2d1ddc8ac3d63bafa9ae5009c08ca545
   sky_engine:
     dependency: transitive
     description: flutter
@@ -348,6 +363,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.4.1"
+<<<<<<< HEAD
   sync_http:
     dependency: transitive
     description:
@@ -356,6 +372,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.3.1"
+=======
+>>>>>>> bbe7cded2d1ddc8ac3d63bafa9ae5009c08ca545
   term_glyph:
     dependency: transitive
     description:
@@ -404,6 +422,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.1"
+<<<<<<< HEAD
   webdriver:
     dependency: transitive
     description:
@@ -412,6 +431,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.2.0"
+=======
+>>>>>>> bbe7cded2d1ddc8ac3d63bafa9ae5009c08ca545
   xdg_directories:
     dependency: transitive
     description:
